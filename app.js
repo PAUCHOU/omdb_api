@@ -44,7 +44,7 @@ app.post("/saved", function(req, res){
 	var movie = req.body.movie;
 	movie.id = count;
 	movies.push(movie)
-	res.redirect("/movie")
+	res.render"/movie")
 })
 
 app.listen(3000);
